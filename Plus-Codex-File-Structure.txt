@@ -1,0 +1,26 @@
+@Plus-Codex-Parser
+	- Python for the script parser
+
+@Plus-Codex-Lib
+
+/CSS
+	- Will contain the style of everything 
+	- index.css
+	- docPages.css
+	* Note: Be intentional about organization. Use variables. Review responsive design. 
+
+/Images
+	/Fonts
+		- download a crap ton of random fonts that we will be using
+	/SVG	
+		- all of the images should go here
+
+/JS
+	- navigating through web pages 
+	- button functionality 
+	- syntax highlighter 
+
+/Pages
+	- will include all of the lessons 
+
+index.html
