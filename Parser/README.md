@@ -27,3 +27,9 @@ Similar to traditional markdown, we would indicate wanting space-preserved code 
 ````{regex}
 /```(\{( | (python) | (cpp) | (bash) )\})?.*```
 ````
+
+## Numerical / Alphabetical Lists (Ordered)
+
+No special annotations are needed to the document in order to change lists. However, for nested lists, the default precedence is the outer list will be numerical and the inner sublist will be alphabetical. In order to change this precedence, please include `~~swap_precedence~~` in the very top of the document.
+
+## Bullet Point Lists (Unordered)
