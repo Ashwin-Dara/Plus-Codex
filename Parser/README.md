@@ -30,6 +30,10 @@ Similar to traditional markdown, we would indicate wanting space-preserved code 
 
 ## Numerical / Alphabetical Lists (Ordered)
 
-No special annotations are needed to the document in order to change lists. However, for nested lists, the default precedence is the outer list will be numerical and the inner sublist will be alphabetical. In order to change this precedence, please include `~~swap_precedence~~` in the very top of the document.
+No special annotations are needed to the document in order to change lists. However, for nested lists, the default precedence is the outer list will be numerical and the inner sublist will be alphabetical. In order to change this precedence, please include `~~swap_precedence~~` somewhere in the document before the list. Here is the equivalent Regex to detect whether or not the list priority will be swapped.
+
+```{regex}
+/(~~swap_precedence~~)?
+```
 
 ## Bullet Point Lists (Unordered)
