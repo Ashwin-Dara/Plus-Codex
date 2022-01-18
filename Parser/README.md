@@ -37,3 +37,5 @@ No special annotations are needed to the document in order to change lists. Howe
 ```
 
 ## Bullet Point Lists (Unordered)
+
+In order to indicate we want bullet points, enclose.
